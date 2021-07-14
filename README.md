@@ -41,26 +41,33 @@ The collection part was not easy, tried plenty of different methods.
 |**Without Human** |![a-boat-sails-on-the-water](https://user-images.githubusercontent.com/86669701/125689199-1f068465-804c-4cb7-a4b4-290c2cce1e54.jpg)|![Image_118](https://user-images.githubusercontent.com/86669701/125689201-992354eb-376a-4418-84f2-f8163f2daf89.jpg)|![Image_182](https://user-images.githubusercontent.com/86669701/125689203-151fe723-42b3-4aaf-979e-840dbf22da94.jpg)|![lighthouse-blue-sky-and-beach-pools](https://user-images.githubusercontent.com/86669701/125689204-2d375e5a-3ded-4f2b-a656-a18ea95e6fcd.jpg)|![treeline-below-mountain-and-blue-sky](https://user-images.githubusercontent.com/86669701/125689205-0aeec6fe-d8a0-4d54-b06e-c69927cda525.jpg)|
 ## 3. Training the model <a name="Training_the_model"></a>
 Our dataset has been trained on different ML models
+
 1.Convolutional Neural Network
+
 2.Transfer Learning models-its trained on different pre-trained models
-### 3.A. xyz <a name="xyz"></a>
+### 3.A. <a name="xyz"></a>
 Xception
+
 InceptionV3
+
 ResNet50
-### 3.B. xyz <a name="xyz"></a>
+### 3.B. <a name="xyz"></a>
 VGG16
+
 MobileNet
 
 --------------------------------
 ## 4. Results <a name="Results"></a>
 CNN-we got an accuracy of around 50%,so done augmentation and tried again but not much major improvement
-### 4.A. xyz <a name="xyz"></a>
-TL-
+### 4.A. <a name="xyz"></a>
 Xception-got an accuracy of 60 and specific improvement after augmenting
+
 InceptionV3- got a decent accuracy around 83
+
 ResNet50- not good selection for this dataset,very low
-### 4.B. xyz <a name="xyz"></a>
+### 4.B. <a name="xyz"></a>
 VGG16- a decent accuracy but not the best so far
+
 MobileNet-this was the better pretrained model used with a good accuracy of 94
 
 --------------------------------
