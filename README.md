@@ -7,7 +7,9 @@ Model that recognizes whether an image provided is a selfie(indoor and outdoor),
 
 --------------------------------
 # Personal Photo Classifier
+--------------------------------
 #### It classifies Selfies, Poses, Photos
+--------------------------------
 ## Table of content
 1. [Introduction](#introduction)
 2. [Dataset creation](#Dataset_creation)
@@ -16,6 +18,7 @@ Model that recognizes whether an image provided is a selfie(indoor and outdoor),
 3. [Training the model](#Training_the_model)
 4. [Results](#Results)
 5. [The team](#The_team)
+--------------------------------
 ## 1. Introduction <a name="introduction"></a>
 Performed in Brainster - Data Science Bootcamp.
 
