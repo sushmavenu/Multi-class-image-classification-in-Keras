@@ -1,10 +1,4 @@
 IMAGE-Classification
-
-Tech/Fameworks used: OpenCV, Keras/TensorFlow, OpenCV and Deep Learning
-
-Model that recognizes whether an image provided is a selfie(indoor and outdoor),pose(indoor and outdoor) or an image without people
-
-
 --------------------------------
 # Personal Photo Classifier
 --------------------------------
@@ -46,16 +40,29 @@ The collection part was not easy, tried plenty of different methods.
 |**Outdoor Pose**  |![62532-340x509-outdoor4](https://user-images.githubusercontent.com/86669701/125688710-bc1298ed-01e0-487a-b386-23f65109b08d.jpg)|![10013020_624911064230364_1577490982_a](https://user-images.githubusercontent.com/86669701/125688711-5ac6999e-06b2-46f2-bc88-83ca5792714d.jpg)|![4032](https://user-images.githubusercontent.com/86669701/125688712-518cb511-64f1-4c0d-80df-fa30e1dcd8d7.jpg)|![5824bfab157992b7b554f1de9dae131d](https://user-images.githubusercontent.com/86669701/125688714-a7b10ad7-ee03-4532-b48c-08ba856a44ec.jpg)|![54127e2476780e4a045ddaae65062928--men-fashion-photography-editorial-photography](https://user-images.githubusercontent.com/86669701/125688715-addd608f-2495-49b8-acec-4263e977ede2.jpg)|
 |**Without Human** |![a-boat-sails-on-the-water](https://user-images.githubusercontent.com/86669701/125689199-1f068465-804c-4cb7-a4b4-290c2cce1e54.jpg)|![Image_118](https://user-images.githubusercontent.com/86669701/125689201-992354eb-376a-4418-84f2-f8163f2daf89.jpg)|![Image_182](https://user-images.githubusercontent.com/86669701/125689203-151fe723-42b3-4aaf-979e-840dbf22da94.jpg)|![lighthouse-blue-sky-and-beach-pools](https://user-images.githubusercontent.com/86669701/125689204-2d375e5a-3ded-4f2b-a656-a18ea95e6fcd.jpg)|![treeline-below-mountain-and-blue-sky](https://user-images.githubusercontent.com/86669701/125689205-0aeec6fe-d8a0-4d54-b06e-c69927cda525.jpg)|
 ## 3. Training the model <a name="Training_the_model"></a>
-xyz
+Our dataset has been trained on different ML models
+1.Convolutional Neural Network
+2.Transfer Learning models-its trained on different pre-trained models
 ### 3.A. xyz <a name="xyz"></a>
-xyz
+Xception
+InceptionV3
+ResNet50
 ### 3.B. xyz <a name="xyz"></a>
+VGG16
+MobileNet
+
 --------------------------------
 ## 4. Results <a name="Results"></a>
-xyz
+CNN-we got an accuracy of around 50%,so done augmentation and tried again but not much major improvement
 ### 4.A. xyz <a name="xyz"></a>
-xyz
+TL-
+Xception-got an accuracy of 60 and specific improvement after augmenting
+InceptionV3- got a decent accuracy around 83
+ResNet50- not good selection for this dataset,very low
 ### 4.B. xyz <a name="xyz"></a>
+VGG16- a decent accuracy but not the best so far
+MobileNet-this was the better pretrained model used with a good accuracy of 94
+
 --------------------------------
 ## 5. The team <a name="The_team"></a>
 * [Sabina Dzafic]() *NOTE:*Need to get Github
