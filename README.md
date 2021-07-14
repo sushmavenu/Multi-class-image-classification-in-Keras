@@ -51,12 +51,12 @@ xyz
 xyz
 ### 4.B. xyz <a name="xyz"></a>
 ## 5. The team <a name="The_team"></a>
-* [Sabina Dzafic]()
-* [Sushma Harsh ???](https://github.com/sushmavenu)
+* [Sabina Dzafic]() *NOTE:*Need to get Github
+* [Sushma Timmaraju](https://github.com/sushmavenu)
 * [Daniel Varga](https://github.com/IndaPerpetuum)
 
 
 
-This project was supervised by [Igor Trpevski]()
+This project was supervised by [Igor Trpevski]()  *NOTE:*Need to get Github
 
 
