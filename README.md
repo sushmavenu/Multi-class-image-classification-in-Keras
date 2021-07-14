@@ -29,6 +29,7 @@ We got an Assignment to Classify five type of images:
 * Indoor Pose
 * Outdoor Pose
 * Photos Without Human
+--------------------------------
 ## 2. Dataset creation <a name="Dataset_creation"></a>
 Dataset creation is really important to achieve a good accuracy on Image Classification tasks.
 ### 2.A. Data Collection <a name="Data_collection"></a>
@@ -44,17 +45,18 @@ The collection part was not easy, tried plenty of different methods.
 |**Indoor Pose**    |![pi00078](https://user-images.githubusercontent.com/86669701/125688412-8b8e2e37-dbf8-4245-bb6f-123c6c3c6137.jpg)|![pexels-ali-pazani-2787341](https://user-images.githubusercontent.com/86669701/125688414-4894b4f6-d42e-4752-8cfc-77a1a72e2a75.jpg)|![pi00013](https://user-images.githubusercontent.com/86669701/125688415-0283f669-94eb-4872-8225-0543b909e97d.jpg)|![pi00016](https://user-images.githubusercontent.com/86669701/125688418-0573f09e-af93-40ed-84c1-2fb467f8c973.jpg)|![pi00050](https://user-images.githubusercontent.com/86669701/125688420-48fda318-1cbd-4c9d-98d0-a7e30c5a9732.jpg)|
 |**Outdoor Pose**  |![62532-340x509-outdoor4](https://user-images.githubusercontent.com/86669701/125688710-bc1298ed-01e0-487a-b386-23f65109b08d.jpg)|![10013020_624911064230364_1577490982_a](https://user-images.githubusercontent.com/86669701/125688711-5ac6999e-06b2-46f2-bc88-83ca5792714d.jpg)|![4032](https://user-images.githubusercontent.com/86669701/125688712-518cb511-64f1-4c0d-80df-fa30e1dcd8d7.jpg)|![5824bfab157992b7b554f1de9dae131d](https://user-images.githubusercontent.com/86669701/125688714-a7b10ad7-ee03-4532-b48c-08ba856a44ec.jpg)|![54127e2476780e4a045ddaae65062928--men-fashion-photography-editorial-photography](https://user-images.githubusercontent.com/86669701/125688715-addd608f-2495-49b8-acec-4263e977ede2.jpg)|
 |**Without Human** |![a-boat-sails-on-the-water](https://user-images.githubusercontent.com/86669701/125689199-1f068465-804c-4cb7-a4b4-290c2cce1e54.jpg)|![Image_118](https://user-images.githubusercontent.com/86669701/125689201-992354eb-376a-4418-84f2-f8163f2daf89.jpg)|![Image_182](https://user-images.githubusercontent.com/86669701/125689203-151fe723-42b3-4aaf-979e-840dbf22da94.jpg)|![lighthouse-blue-sky-and-beach-pools](https://user-images.githubusercontent.com/86669701/125689204-2d375e5a-3ded-4f2b-a656-a18ea95e6fcd.jpg)|![treeline-below-mountain-and-blue-sky](https://user-images.githubusercontent.com/86669701/125689205-0aeec6fe-d8a0-4d54-b06e-c69927cda525.jpg)|
-
 ## 3. Training the model <a name="Training_the_model"></a>
 xyz
 ### 3.A. xyz <a name="xyz"></a>
 xyz
 ### 3.B. xyz <a name="xyz"></a>
+--------------------------------
 ## 4. Results <a name="Results"></a>
 xyz
 ### 4.A. xyz <a name="xyz"></a>
 xyz
 ### 4.B. xyz <a name="xyz"></a>
+--------------------------------
 ## 5. The team <a name="The_team"></a>
 * [Sabina Dzafic]() *NOTE:*Need to get Github
 * [Sushma Timmaraju](https://github.com/sushmavenu)
