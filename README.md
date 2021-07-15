@@ -26,11 +26,11 @@ We got an Assignment to Classify five type of images:
 --------------------------------
 ## 2. Dataset creation <a name="Dataset_creation"></a>
 Dataset creation is really important to achieve a good accuracy on Image Classification tasks.
-### 2.A. Data Collection <a name="Data_collection"></a>
+### 2.i. Data Collection <a name="Data_collection"></a>
 We collected data from internet, we tried to use caution to not violate any copyrights.
 
 The collection part was not easy, tried plenty of different methods.
-### 2.B. Preview of dataset <a name="Preview_of_dataset"></a>
+### 2.ii. Preview of dataset <a name="Preview_of_dataset"></a>
 
 | **Class**|**1**|**2** |**3**|**4**|**5**|  
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -45,13 +45,13 @@ Our dataset has been trained on different ML models
 1.Convolutional Neural Network
 
 2.Transfer Learning models-its trained on different pre-trained models
-### 3.A. <a name="xyz"></a>
+### 3.i. <a name="xyz"></a>
 Xception
 
 InceptionV3
 
 ResNet50
-### 3.B. <a name="xyz"></a>
+### 3.ii. <a name="xyz"></a>
 VGG16
 
 MobileNet
@@ -59,13 +59,13 @@ MobileNet
 --------------------------------
 ## 4. Results <a name="Results"></a>
 CNN-we got an accuracy of around 50%,so done augmentation and tried again but not much major improvement
-### 4.A. <a name="xyz"></a>
+### 4.i. <a name="xyz"></a>
 Xception-got an accuracy of 60 and specific improvement after augmenting
 
 InceptionV3- got a decent accuracy around 83
 
 ResNet50- not good selection for this dataset,very low
-### 4.B. <a name="xyz"></a>
+### 4.ii. <a name="xyz"></a>
 VGG16- a decent accuracy but not the best so far
 
 MobileNet-this was the better pretrained model used with a good accuracy of 94
