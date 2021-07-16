@@ -19,8 +19,8 @@ The goal of our project was to build a model that can classify 5 types of images
 * Photos Without Human
 
 The project was divided in 3 phases:
-* Dataset collection and preparation
-* Training the model
+* Data collection and Dataset preparation
+* Training Models
 * Model evaluation and deployment
 
 --------------------------------
@@ -51,30 +51,30 @@ Our dataset has been trained on different ML models
 1.Convolutional Neural Network
 
 2.Transfer Learning models-its trained on different pre-trained models
-### 3.i. <a name="xyz"></a>
-Xception
 
-InceptionV3
+*Xception
 
-ResNet50
-### 3.ii. <a name="xyz"></a>
-VGG16
+*InceptionV3
 
-MobileNet
+*ResNet50
+
+*VGG16
+
+*MobileNet
 
 --------------------------------
 ## 4. Results <a name="Results"></a>
 CNN-we got an accuracy of around 50%,so done augmentation and tried again but not much major improvement
-### 4.i. <a name="xyz"></a>
+
 Xception-got an accuracy of 60 and specific improvement after augmenting
 
 InceptionV3- got a decent accuracy around 83
 
 ResNet50- not good selection for this dataset,very low
-### 4.ii. <a name="xyz"></a>
+
 VGG16- a decent accuracy but not the best so far
 
-MobileNet-this was the better pretrained model used with a good accuracy of 94
+MobileNet-this was the better pretrained model used with a good accuracy of 92
 
 --------------------------------
 ## 5. The team <a name="The_team"></a>
