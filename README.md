@@ -1,36 +1,42 @@
-IMAGE-Classification
+# Multi-label image classification using transfer learning 
 --------------------------------
-# Personal Photo Classifier
+#### 
 --------------------------------
-#### It classifies Selfies, Poses, Photos
---------------------------------
-## Table of content
+## Table of contents
 1. [Introduction](#introduction)
 2. [Dataset creation](#Dataset_creation)
-    1. [Data collection](#Data_collection)
-    2. [Preview of dataset](#Preview_of_dataset)
 3. [Training the model](#Training_the_model)
 4. [Results](#Results)
 5. [The team](#The_team)
 
 --------------------------------
 ## 1. Introduction <a name="introduction"></a>
-Performed in Brainster - Data Science Bootcamp.
-
-We got an Assignment to Classify five type of images:
+The goal of our project was to build a model that can classify 5 types of images:
 * Indoor Selfie
 * Outdoor Selfie
 * Indoor Pose
 * Outdoor Pose
 * Photos Without Human
+
+The project was divided in 3 phases:
+* Dataset collection and preparation
+* Training the model
+* Model evaluation and deployment
+
 --------------------------------
 ## 2. Dataset creation <a name="Dataset_creation"></a>
-Dataset creation is really important to achieve a good accuracy on Image Classification tasks.
-### 2.i. Data Collection <a name="Data_collection"></a>
-We collected data from internet, we tried to use caution to not violate any copyrights.
 
-The collection part was not easy, tried plenty of different methods.
-### 2.ii. Preview of dataset <a name="Preview_of_dataset"></a>
+In order to build a robust classifier, we prepared a custom dataset with balanced distribution of the five classes, each containing 500 images:
+    * 0_selfie_indoor  
+    * 1_selfie_outdoor
+    * 2_pose_indoor  
+    * 3_pose_outdoor 
+    * 4_without_human  
+
+### Data Collection <a name="Data_collection"></a>
+Selfie images were collected from a pre-made dataset available at: https://www.crcv.ucf.edu/data/Selfie/, and then divided to indoor/outdoor selfies. The dataset includes both regular and mirror selfies. Other images were collected from various web sources.
+
+### Preview of dataset <a name="Preview_of_dataset"></a>
 
 | **Class**|**1**|**2** |**3**|**4**|**5**|  
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -72,7 +78,7 @@ MobileNet-this was the better pretrained model used with a good accuracy of 94
 
 --------------------------------
 ## 5. The team <a name="The_team"></a>
-* [Sabina Dzafic]() *NOTE:*Need to get Github
+* [Sabina Dzafic](https://github.com/sabinadzafic)
 * [Sushma Timmaraju](https://github.com/sushmavenu)
 * [Daniel Varga](https://github.com/IndaPerpetuum)
 
