@@ -27,11 +27,11 @@ The project was divided in 3 phases:
 ## 2. Dataset creation <a name="Dataset_creation"></a>
 
 In order to build a robust classifier, we prepared a custom dataset with balanced distribution of the five classes, each containing 500 images:
-    * 0_selfie_indoor  
-    * 1_selfie_outdoor
-    * 2_pose_indoor  
-    * 3_pose_outdoor 
-    * 4_without_human  
+* 0_selfie_indoor  
+* 1_selfie_outdoor
+* 2_pose_indoor  
+* 3_pose_outdoor 
+* 4_without_human  
 
 ### Data Collection <a name="Data_collection"></a>
 Selfie images were collected from a pre-made dataset available at: https://www.crcv.ucf.edu/data/Selfie/, and then divided to indoor/outdoor selfies. The dataset includes both regular and mirror selfies. Other images were collected from various web sources.
