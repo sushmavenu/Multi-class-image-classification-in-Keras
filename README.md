@@ -69,12 +69,15 @@ Overall validation accuracy: 91 %
 Relevant metrics for each class:
 | **Class** | **Precision** | **Recall** | **F1-score** |**AUC** |
 |---|:---:|:---:|:---:|:---:|
-| Selfie indoor | 0.95 | 0.83 | 0.89 | 0.91 |
-| Selfie outdoor | 0.88 | 0.94 | 0.91 | 0.95 |
-| Pose indoor | 0.85 | 0.92 | 0.88 | 0.94 | 
-| Pose outdoor | 0.90 | 0.90 | 0.90 | 0.94 |
-| Without human | 0.98 | 0.96 | 0.97 | 0.98 |
-| Macro avg | 0.91 | 0.91 | 0.91 |  0.94 |
+| Selfie indoor | 0.95 | 0.83 | 0.89 | 0.98 |
+| Selfie outdoor | 0.88 | 0.94 | 0.91 | 0.99 |
+| Pose indoor | 0.85 | 0.92 | 0.88 | 0.98 | 
+| Pose outdoor | 0.90 | 0.90 | 0.90 | 0.99 |
+| Without human | 0.98 | 0.96 | 0.97 | 1.0 |
+| Macro avg | 0.91 | 0.91 | 0.91 |  0.99 |
+
+AUC scores of individual classes:
+![auc](https://github.com/sushmavenu/Multi-class-image-classification-in-Keras/blob/images/auc_best_model.png)
 
 
 Finally, the model was tested on several images with a function that takes in URL of the image and outputs the probability of the image belonging to each class. Examples are given below:
@@ -96,6 +99,6 @@ Team members:
 * [Sushma Timmaraju](https://github.com/sushmavenu)
 * [Daniel Varga](https://github.com/IndaPerpetuum)
 
-Project supervisor:
-[Igor Trpevski]()  
-
+Big thanks goes to:
+* Project supervisor: [Igor Trpevski]()  
+* Brainster Instructors: Blagoj Kostovski, Viktoria Doneva, Filip Nikolovski, Marko Karbevski, Viktor Domazetoski
