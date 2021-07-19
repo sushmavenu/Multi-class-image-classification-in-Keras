@@ -76,13 +76,15 @@ Relevant metrics for each class:
 | Without human | 0.98 | 0.96 | 0.97 | 0.98 |
 | Macro avg | 0.91 | 0.91 | 0.91 |  0.94 |
 
-Finally, the model was tested on several images with a function that takes in URL of the image and output the probability of the image belonging to each class. Examples are given below:
+
+Finally, the model was tested on several images with a function that takes in URL of the image and outputs the probability of the image belonging to each class. Examples are given below:
   
 ![image1](https://github.com/sushmavenu/ourfinalproject/blob/images/image1.png)
 ![image2](https://github.com/sushmavenu/ourfinalproject/blob/images/image2.png) 
 ![image3](https://github.com/sushmavenu/ourfinalproject/blob/images/image3.png)
 ![image4](https://github.com/sushmavenu/ourfinalproject/blob/images/image4.png)
 ![image5](https://github.com/sushmavenu/ourfinalproject/blob/images/image5.png)
+
 
 --------------------------------
 ## 5. The team <a name="The_team"></a>
