@@ -1,4 +1,4 @@
-# Multi-label image classification using transfer learning 
+# Multi-class image classification using transfer learning 
 --------------------------------
 #### 
 
@@ -32,7 +32,7 @@ In order to build a robust classifier, we prepared a custom dataset of 2500 imag
 
 
 ### Data Collection <a name="Data_collection"></a>
-Selfie images were collected from a pre-made dataset available at: https://www.crcv.ucf.edu/data/Selfie/, and then divided to indoor/outdoor selfies. The dataset includes both regular and mirror selfies. Other images were collected from various web sources. 
+Selfie images were collected from a pre-made dataset available at: https://www.crcv.ucf.edu/data/Selfie/, and then divided to indoor/outdoor selfies. The dataset includes both regular and mirror selfies. Other images were collected from various web sources. The dataset is available upon request.
 
 ### Preview of dataset <a name="Preview_of_dataset"></a>
 
@@ -49,38 +49,48 @@ Given the fact that our dataset is fairly small, we didn't get good results with
 Validation accuracy results achieved with different pre-trained models:
 
 | **Model** | **Epochs** | **Validation accuracy (%)** |
-|---|---|---|
-| CNN from scratch | 100 | 51|
-| MobileNet | 100 | 91|
-| Inception V3 | 100 | 84|
-| Xception | 100 | 90|
-| ResNet50 |100 | 28|
-| ResNet101 | 50 | 24|
-| VGG16 | 100 | 69|
+|---|:---:|:---:|
+| CNN from scratch | 100 | 51 |
+| MobileNet | 100 | 91 |
+| Inception V3 | 100 | 84 |
+| Xception | 100 | 90 |
+| ResNet50 |100 | 28 |
+| ResNet101 | 50 | 24 |
+| VGG16 | 100 | 69 |
 
-We can see how in a few lines of code and with a good selection of the pre-trained model, with transfer learning we can get very good results even with a small dataset to train on. 
+We can see how in a few lines of code and with a good selection of the pre-trained model, with transfer learning we can get very good results even with a small dataset to train on. However, our baseline CNN written from scratch achieved a better result than some of the pre-trained models we tried.
 
 --------------------------------
 ## 4. Results <a name="Results"></a>
-CNN-we got an accuracy of around 50%,so done augmentation and tried again but not much major improvement
+Best results for our dataset were achieved with transfer learning, using MobileNet pre-trained model. 
 
-Xception-got an accuracy of 60 and specific improvement after augmenting
+Overall validation accuracy: 91 % 
 
-InceptionV3- got a decent accuracy around 83
+Relevant metrics for each class:
+| **Class** | **Precision** | **Recall** | **F1-score** |**AUC** |
+|---|:---:|:---:|:---:|:---:|
+| Selfie indoor | 0.95 | 0.83 | 0.89 | 0.91 |
+| Selfie outdoor | 0.88 | 0.94 | 0.91 | 0.95 |
+| Pose indoor | 0.85 | 0.92 | 0.88 | 0.94 | 
+| Pose outdoor | 0.90 | 0.90 | 0.90 | 0.94 |
+| Without human | 0.98 | 0.96 | 0.97 | 0.98 |
+| Macro avg | 0.91 | 0.91 | 0.91 |  0.94 |
 
-ResNet50- not good selection for this dataset,very low
+Finally, the model was tested on several images with a function that takes in URL of the image and output the probability of the image belonging to each class. Examples are given below:
 
-VGG16- a decent accuracy but not the best so far
-
-MobileNet-this was the better pretrained model used with a good accuracy of 92
+|Test image 1|Test image 2|Test image 3|Test image 4|Test image 5|  
+|![image1](https://github.com/sushmavenu/ourfinalproject/blob/images/image1.png)|![image2](https://github.com/sushmavenu/ourfinalproject/blob/images/image2.png) |![image3](https://github.com/sushmavenu/ourfinalproject/blob/images/image3.png)|![image4](https://github.com/sushmavenu/ourfinalproject/blob/images/image4.png)|![image5](https://github.com/sushmavenu/ourfinalproject/blob/images/image5.png)|
 
 --------------------------------
 ## 5. The team <a name="The_team"></a>
+
+This project was delivered as a final assignment for a Data Science course at the [Brainster Data Science Academy](https://brainster.io/)
+
+Team members:
 * [Sabina Dzafic](https://github.com/sabinadzafic)
 * [Sushma Timmaraju](https://github.com/sushmavenu)
 * [Daniel Varga](https://github.com/IndaPerpetuum)
 
-
-
-This project was supervised by [Igor Trpevski]()  
+Project supervisor:
+[Igor Trpevski]()  
 
