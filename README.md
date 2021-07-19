@@ -20,7 +20,7 @@ The goal of our project was to build a model that can classify 5 types of images
 
 The project was divided in 3 phases:
 * Data collection and Dataset preparation
-* Training Models
+* Training models
 * Model evaluation and deployment
 
 --------------------------------
@@ -44,21 +44,21 @@ Selfie images were collected from a pre-made dataset available at: https://www.c
 |**Outdoor Pose**  |![62532-340x509-outdoor4](https://user-images.githubusercontent.com/86669701/125688710-bc1298ed-01e0-487a-b386-23f65109b08d.jpg)|![10013020_624911064230364_1577490982_a](https://user-images.githubusercontent.com/86669701/125688711-5ac6999e-06b2-46f2-bc88-83ca5792714d.jpg)|![4032](https://user-images.githubusercontent.com/86669701/125688712-518cb511-64f1-4c0d-80df-fa30e1dcd8d7.jpg)|![5824bfab157992b7b554f1de9dae131d](https://user-images.githubusercontent.com/86669701/125688714-a7b10ad7-ee03-4532-b48c-08ba856a44ec.jpg)|![54127e2476780e4a045ddaae65062928--men-fashion-photography-editorial-photography](https://user-images.githubusercontent.com/86669701/125688715-addd608f-2495-49b8-acec-4263e977ede2.jpg)|
 |**Without Human** |![a-boat-sails-on-the-water](https://user-images.githubusercontent.com/86669701/125689199-1f068465-804c-4cb7-a4b4-290c2cce1e54.jpg)|![Image_118](https://user-images.githubusercontent.com/86669701/125689201-992354eb-376a-4418-84f2-f8163f2daf89.jpg)|![Image_182](https://user-images.githubusercontent.com/86669701/125689203-151fe723-42b3-4aaf-979e-840dbf22da94.jpg)|![lighthouse-blue-sky-and-beach-pools](https://user-images.githubusercontent.com/86669701/125689204-2d375e5a-3ded-4f2b-a656-a18ea95e6fcd.jpg)|![treeline-below-mountain-and-blue-sky](https://user-images.githubusercontent.com/86669701/125689205-0aeec6fe-d8a0-4d54-b06e-c69927cda525.jpg)|
 ## 3. Training the model <a name="Training_the_model"></a>
-Given the fact that our dataset is fairly small, we didn't get good results with training our own CNN from scratch, so we decided to use transfer learning with pre-trained CNNs. 
+Given the fact that our dataset is fairly small, we didn't get good results with training our own CNN from scratch, so we decided to use transfer learning with pre-trained CNNs. To achieve better results, data augmentation was applied to the dataset.
 
-1.Convolutional Neural Network
+Validation accuracy results achieved with different pre-trained models:
 
-2.Transfer Learning models-its trained on different pre-trained models
+Model | Epochs | Validation accuracy (%)
+------------ | -------------
+CNN from scratch | 100 | 51
+MobileNet | 100 | 91
+Inception V3 | 100 | 84
+Xception | 100 | 90
+ResNet50 | 100 | 28
+ResNet101 | 50 | 24
+VGG16 | 100 | 69
 
-*Xception
-
-*InceptionV3
-
-*ResNet50
-
-*VGG16
-
-*MobileNet
+We can see how in a few lines of code and with a good selection of the pre-trained model, with transfer learning we can get very good results even with a small dataset to train on. 
 
 --------------------------------
 ## 4. Results <a name="Results"></a>
@@ -82,6 +82,5 @@ MobileNet-this was the better pretrained model used with a good accuracy of 92
 
 
 
-This project was supervised by [Igor Trpevski]()  *NOTE:*Need to get Github
-
+This project was supervised by [Igor Trpevski]()  
 
