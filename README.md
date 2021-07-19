@@ -1,7 +1,7 @@
 # Multi-label image classification using transfer learning 
 --------------------------------
 #### 
---------------------------------
+
 ## Table of contents
 1. [Introduction](#introduction)
 2. [Dataset creation](#Dataset_creation)
@@ -26,15 +26,13 @@ The project was divided in 3 phases:
 --------------------------------
 ## 2. Dataset creation <a name="Dataset_creation"></a>
 
-In order to build a robust classifier, we prepared a custom dataset with balanced distribution of the five classes, each containing 500 images:
-* 0_selfie_indoor  
-* 1_selfie_outdoor
-* 2_pose_indoor  
-* 3_pose_outdoor 
-* 4_without_human  
+In order to build a robust classifier, we prepared a custom dataset of 2500 images with a balanced distribution of the five classes, each containing 500 images. Images belonging to different classes were saved in separate folders, with directory structure as following:
+
+![folder structure](https://github.com/sushmavenu/ourfinalproject/blob/images/folders.png)
+
 
 ### Data Collection <a name="Data_collection"></a>
-Selfie images were collected from a pre-made dataset available at: https://www.crcv.ucf.edu/data/Selfie/, and then divided to indoor/outdoor selfies. The dataset includes both regular and mirror selfies. Other images were collected from various web sources.
+Selfie images were collected from a pre-made dataset available at: https://www.crcv.ucf.edu/data/Selfie/, and then divided to indoor/outdoor selfies. The dataset includes both regular and mirror selfies. Other images were collected from various web sources. 
 
 ### Preview of dataset <a name="Preview_of_dataset"></a>
 
@@ -46,7 +44,7 @@ Selfie images were collected from a pre-made dataset available at: https://www.c
 |**Outdoor Pose**  |![62532-340x509-outdoor4](https://user-images.githubusercontent.com/86669701/125688710-bc1298ed-01e0-487a-b386-23f65109b08d.jpg)|![10013020_624911064230364_1577490982_a](https://user-images.githubusercontent.com/86669701/125688711-5ac6999e-06b2-46f2-bc88-83ca5792714d.jpg)|![4032](https://user-images.githubusercontent.com/86669701/125688712-518cb511-64f1-4c0d-80df-fa30e1dcd8d7.jpg)|![5824bfab157992b7b554f1de9dae131d](https://user-images.githubusercontent.com/86669701/125688714-a7b10ad7-ee03-4532-b48c-08ba856a44ec.jpg)|![54127e2476780e4a045ddaae65062928--men-fashion-photography-editorial-photography](https://user-images.githubusercontent.com/86669701/125688715-addd608f-2495-49b8-acec-4263e977ede2.jpg)|
 |**Without Human** |![a-boat-sails-on-the-water](https://user-images.githubusercontent.com/86669701/125689199-1f068465-804c-4cb7-a4b4-290c2cce1e54.jpg)|![Image_118](https://user-images.githubusercontent.com/86669701/125689201-992354eb-376a-4418-84f2-f8163f2daf89.jpg)|![Image_182](https://user-images.githubusercontent.com/86669701/125689203-151fe723-42b3-4aaf-979e-840dbf22da94.jpg)|![lighthouse-blue-sky-and-beach-pools](https://user-images.githubusercontent.com/86669701/125689204-2d375e5a-3ded-4f2b-a656-a18ea95e6fcd.jpg)|![treeline-below-mountain-and-blue-sky](https://user-images.githubusercontent.com/86669701/125689205-0aeec6fe-d8a0-4d54-b06e-c69927cda525.jpg)|
 ## 3. Training the model <a name="Training_the_model"></a>
-Our dataset has been trained on different ML models
+Given the fact that our dataset is fairly small, we didn't get good results with training our own CNN from scratch, so we decided to use transfer learning with pre-trained CNNs. 
 
 1.Convolutional Neural Network
 
