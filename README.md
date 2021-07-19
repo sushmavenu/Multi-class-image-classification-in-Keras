@@ -48,15 +48,15 @@ Given the fact that our dataset is fairly small, we didn't get good results with
 
 Validation accuracy results achieved with different pre-trained models:
 
-| **Model **| **Epochs** | **Validation accuracy (%)**|
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|**CNN from scratch**| 100 | 51|
-|**MobileNet**| 100 | 91|
-|**Inception V3** | 100 | 84|
-|**Xception**  | 100 | 90|
-|**ResNet50**  |100 | 28|
-|**ResNet101** | 50 | 24|
-|**VGG16** | 100 | 69|
+| **Model** | **Epochs** | **Validation accuracy (%)** |
+|---|---|---|
+| CNN from scratch | 100 | 51|
+| MobileNet | 100 | 91|
+| Inception V3 | 100 | 84|
+| Xception | 100 | 90|
+| ResNet50 |100 | 28|
+| ResNet101 | 50 | 24|
+| VGG16 | 100 | 69|
 
 We can see how in a few lines of code and with a good selection of the pre-trained model, with transfer learning we can get very good results even with a small dataset to train on. 
 
